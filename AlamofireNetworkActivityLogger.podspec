@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name = 'AlamofireNetworkActivityLogger'
-  s.version = '5.4.0'
+  s.version = '5.6.2'
   s.license = 'MIT'
   s.summary = 'Network request logger for Alamofire'
   s.homepage = 'https://github.com/konkab/AlamofireNetworkActivityLogger'
   s.social_media_url = 'https://www.linkedin.com/in/konstantinkabanov'
   s.authors = { 'Konstantin Kabanov' => 'fever9@gmail.com' }
 
-  s.source = { :git => 'https://github.com/konkab/AlamofireNetworkActivityLogger.git',:branch => 'master'}
+  s.source = { :git => 'https://github.com/konkab/AlamofireNetworkActivityLogger.git', :tag => s.version }
   s.source_files = 'Source/*.swift'
   s.swift_versions = ['5.0']
 
